@@ -1,0 +1,11 @@
+<phpunit
+        bootstrap="test_env.php"
+        colors="true"
+        stopOnFailure="false"
+        syntaxCheck="false">
+
+    <testsuites>
+
+    </testsuites>
+
+</phpunit>

@@ -1,0 +1,5 @@
+# Ignore the following files and folder
+composer.lock
+
+vendor/*
+.idea
