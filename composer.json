@@ -1,7 +1,6 @@
 {
     "name"             : "raincreativelab/shackles",
     "description"      : "Rule Based Image Processor for PHP",
-    "minimum-stability": "dev",
     "license"          : "MIT",
     "authors"          : [
         {
@@ -10,11 +9,17 @@
         }
     ],
     "require"          : {
+        "php"                 : ">=5.5.0",
         "symfony/class-loader": "2.6.x-dev",
         "league/flysystem"    : "1.0.1"
     },
     "require-dev"      : {
         "mockery/mockery": "0.9.3",
         "phpunit/phpunit": "4.7.x-dev"
+    },
+    "autoload"         : {
+        "psr-4": {
+            "shackles\\"          : "lib/"
+        }
     }
 }
